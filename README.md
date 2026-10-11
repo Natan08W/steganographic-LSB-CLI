@@ -8,7 +8,7 @@ main.py handles the user CLI aswell as returning inputs and outputs.
 The CLI follows standard formatting where -i is input, -o is output, -k is key, -f is file and -m is message.
 
 Some examples commands that you can use:
-python3 main.py encode -i start.png -o output.png -m "This is a message" -k "KEY"
-python3 main.py decode -i output.png -o output_msg.md -k "KEY"
+- python3 main.py encode -i start.png -o output.png -m "This is a message" -k "KEY"
+- python3 main.py decode -i output.png -o output_msg.md -k "KEY"
 
 If you wish to decode the files already provided, you can use the decode instruction where k = the file name.
